@@ -27,7 +27,7 @@ var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({
     defaultLayout: "main",
-    partialsDir: path.join(__dirname, "/views/layouts/partials")
+    partialsDir: path.join(__dirname, "/views/layouts/partials/notes-modal.handlebars")
 }));
 app.set("view engine", "handlebars");
 
