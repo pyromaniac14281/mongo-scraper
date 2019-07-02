@@ -19,3 +19,13 @@
                     <button type="button" class="btn btn-success save" data-id={{this._id}}>Save Article</button>
                 </div>
             </div>
+            {{/each}}
+        {{else}}
+        <div class="panel panel-default">
+            <div class="panel-body">
+            <h4>Sorry random person, no articles for you here.</h4>
+            </div>
+         </div>
+        {{/if}}
+    </div>
+</div>
